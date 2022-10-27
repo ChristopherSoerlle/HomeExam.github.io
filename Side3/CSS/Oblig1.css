@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: white;
+
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #c0392b;
+    position: fixed;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    text-align: left;
+    line-height: 100px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Cambria;
+    color: #fff;
+    letter-spacing: 4px;
+    padding: 36px;
+}
+
+.logo a:hover {
+    background-color: white;
+    color: #130f40;
+    border-radius: 20px;
+
+}
+.navbar {
+    float: right;
+    line-height: 100px;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Cambria;
+    font-weight: 500;
+    color: white;
+    padding: 36px;
+    letter-spacing: 4px;
+    margin: 0 1px;  
+}
+
+.navbar a:hover{
+    background-color: white;
+    color: #130f40;
+    border-radius: 20px;
+}
+
+.Banner{
+    background-image: url(images/pastaheader.jpeg);
+ /* Foto hentet fra tantillofoods.com link:https://tantillofoods.com/wp-content/uploads/2016/06/boxed-pasta-product-category-header-1000x321.webp */
+    background-size: cover;
+    background-position: center center;
+    top: 100px;
+
+    height: 28vh;
+    width: 100%;
+    position: fixed;
+  }
+  .Banner:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #130f40;
+    opacity: 0.7;
+    z-index: -1;
+  }
+
+.Banner h2{
+    padding-top: 5%;
+    font-size: 80px;
+    color: white;
+}
+
+.Meny {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background-color: white;
+    top: 550px;
+}
+
+.Meny p {
+    line-height: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 22px;
+}
+
+.Meny h2 {
+    font-style: italic;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    color: #c0392b;
+}
+    
+.footer {
+    display: block;
+    background-color: antiquewhite;
+    position: absolute;
+    top:1670px;
+    width: 100%;
+    height: 150px;
+}
+
+.footer p {
+    text-align: center;
+    padding-top: 28px;
+    font-size: 24px;
+}
+
+.p1 {
+    font-family: Cambria;
+    font-weight: 200;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background-color: white;
+    top: 450px;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.p1 h2 {
+    font-size: 50px;
+    text-decoration: underline;
+    padding-bottom: 50px;
+}
