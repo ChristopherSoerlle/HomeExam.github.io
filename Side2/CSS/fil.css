@@ -1,49 +1,59 @@
-.body {
-    margin: none;
-    padding: none;
-    ;
-    
+body {
+    margin: 0;
+
 }
 
-.header{
-    height: auto;
+.Header-Image {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Side1/Images/Nature.png);
+    height: 50vh;
     width: 100%;
-}
-
-
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .Main-Title{
+    position: relative;
+    text-shadow: 5px 5px 10px black;
+    letter-spacing: 3px;
+    color:#c0392b;
+    font-size: 46px;
+    top: 20%;
+  }
 
 .navbar {
-    display: inline-block;
     width: 100%;
     line-height: 100px;
     background-color: #c0392b;
     text-align: center;
-    border-style: solid;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    border-top: 0;
+    display: inline-block;
+    align-items: center;
+  }
+  
+  li {
+    list-style: none;
+    display: inline-block;
   }
   
   .navbar a{
     text-decoration: none;
-    font-size: auto;
+    font-size: 18px;
     font-family: Cambria;
     font-weight: 500;
     color: white;
-    padding-left: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 50px;
+    padding: 20px;
     letter-spacing: 4px;
-    margin: 0 28px;  
+    margin: 28px 28px;
   }
   
   .navbar a:hover{
     background-color: white;
     color: #130f40;
-    border-radius: 20px solid;
+    border-radius: 20px;
+    border-style: solid;
   }
 
 .grid {
