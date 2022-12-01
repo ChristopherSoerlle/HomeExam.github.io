@@ -63,8 +63,8 @@ li {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 50px;
-    column-gap: 10px;
     grid-template-rows: 1fr 1fr;
+    column-gap: 10px;
     margin-top: 50px;
     padding: 20px;  
 }
