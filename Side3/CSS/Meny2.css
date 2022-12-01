@@ -160,6 +160,7 @@ li {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
+    
 }
 
 .kolonne1{
@@ -170,12 +171,10 @@ li {
 }
 
 .salat img{
-    width: 100%;
     margin-top: 10%;
 }
 
 .pizza img{
-    width: 100%;
     margin-top: 130%;
 }
 
@@ -186,7 +185,9 @@ li {
     grid-row-end: 3;
     border-bottom: solid darkgray;
     width: 500px;
-    background-color: white;  
+    background-color: white; 
+    border-radius: 4px 4px 0 0;
+    
 }
 
 .kolonne2{
@@ -196,13 +197,9 @@ li {
     grid-row-end: 4;   
 }
 
-
 .pasta img{
-    width: 100%;
     margin-top: 110%;
 }    
-
-
 
 .hovedretter{
     border-bottom: none;
@@ -223,7 +220,6 @@ li {
 }
 
 .vin img{
-    width: 100%;
     margin-top: 110%;
 }
 
@@ -239,7 +235,6 @@ li {
 }
 
 .brus img{
-    width: 100%;
     margin-top: 90%;
 }
 
