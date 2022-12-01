@@ -66,13 +66,13 @@ header {
 }
 
 .Banner{
-    background-image: url(images/pastaheader.jpeg);
+    background-image: url(/Side3/Images/pastaheader.jpeg);
  /* Foto hentet fra tantillofoods.com link:https://tantillofoods.com/wp-content/uploads/2016/06/boxed-pasta-product-category-header-1000x321.webp */
     background-size: cover;
     background-position: center center;
     top: 100px;
 
-    height: 28vh;
+    height: 20vh;
     width: 100%;
     position: fixed;
   }
