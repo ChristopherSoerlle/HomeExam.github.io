@@ -4,25 +4,90 @@ body {
     background-color: rgb(189, 152, 113);
 }
 
-.header {
+.Header-Image {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Side1/Images/Nature.png);
+    height: 50vh;
     width: 100%;
-    height: 100px;
-    background-color: #8d4d46;
-}
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  
+.Main-Title{
+    position: relative;
+    text-shadow: 5px 5px 10px black;
+    letter-spacing: 3px;
+    color:#c0392b;
+    font-size: 46px;
+    top: 20%;
+  }
 
-.logo{
-    background-color: rgb(193, 141, 141);
-    height: 200px;
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
     width: 100%;
-}
+    margin-bottom: 25px;
+  }
+  
+ /* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+ /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Links inside the dropdown */
+.dropdown-content a, .Åpningstider {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
 
 .navbar {
-    display: inline-block;
     width: 100%;
     line-height: 100px;
     background-color: #c0392b;
     text-align: center;
-}
+    display: inline-block;
+    align-items: center;
+  }
+  
+li {
+    list-style: none;
+    display: inline-block;
+  }
   
 .navbar a{
     text-decoration: none;
@@ -30,19 +95,17 @@ body {
     font-family: Cambria;
     font-weight: 500;
     color: white;
-    padding-left: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 50px;
+    padding: 20px;
     letter-spacing: 4px;
-    margin: 0 28px;  
-}
+    margin: 28px 28px;
+  }
   
 .navbar a:hover{
     background-color: white;
     color: #130f40;
-    border-radius: 20px solid;
-}
+    border-radius: 20px;
+    border-style: solid;
+  }
 
 .grid{
     display: grid;
@@ -209,4 +272,22 @@ body {
     text-align: center;
     padding-top: 28px;
     font-size: 24px;
+}
+
+.p1 {
+    font-family: Cambria;
+    font-weight: 200;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background-color: white;
+    top: 450px;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.p1 h2 {
+    font-size: 50px;
+    text-decoration: underline;
+    padding-bottom: 50px;
 }
