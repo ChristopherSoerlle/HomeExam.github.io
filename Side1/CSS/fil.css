@@ -45,12 +45,11 @@ li {
   font-family: Cambria;
   font-weight: 500;
   color: white;
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 20px;
+  padding: 20px;
   letter-spacing: 4px;
-  margin: 28px 28px;
+  margin-left: 30px;
+  margin-right: 30px;
+
 }
 
 .navbar a:hover{
