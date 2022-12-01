@@ -1,4 +1,4 @@
-.body {
+body {
     margin: 0;
     padding: 0;
     background-color: white;
@@ -22,12 +22,6 @@
     line-height: 100px;
     background-color: #c0392b;
     text-align: center;
-    border-style: solid;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    border-top: 0; 
 }
   
 .navbar a{
