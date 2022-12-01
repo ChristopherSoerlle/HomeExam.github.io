@@ -2,43 +2,87 @@ body {
   background-color: beige;
   height: 100%;
   margin: 0;
-  background-image: url(/Side5/Images/test\ Liten.jpeg);
+}
+
+.Header-Image{
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Side1/Images/Nature.png);
+  height: 50vh;
+  width: 100%;
   background-repeat: no-repeat;
-  background-position: right top;
-  background-size: 500px 700px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+ 
+
+.Tittel{
+  position: relative;
+  text-shadow: 5px 5px 10px black;
+  letter-spacing: 3px;
+  color:#c0392b;
+  font-size: 46px;
+  top: 20%;
 }
 
-ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-width: 15%;
-background-color:#c0392b;
-height:fit-content; 
-position: fixed;
-overflow: auto;
+.navbar {
+  width: 100%;
+  line-height: 100px;
+  background-color: #c0392b;
+  text-align: center;
+  display: inline-block;
+  align-items: center;
 }
 
-li a {
-display: block;
-color: #000;
-padding: 38px 16px;
-text-decoration: none;
-font-size: 26px;
-border-top: 1px solid;
+li {
+  list-style: none;
+  display: inline-block;
 }
 
-li a:hover {
-  background-color: #555;
+.navbar a{
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Cambria;
+  font-weight: 500;
   color: white;
-  border-color: darkblue;
+  padding: 20px;
+  letter-spacing: 4px;
+  margin: 28px 28px;
 }
 
-#Øvre-Link{
-  border-top: none;
+.navbar a:hover{
+  background-color: white;
+  color: #130f40;
+  border-radius: 20px;
+  border-style: solid;
 }
 
-.Innhold{
-  width: 300px;
-  margin-left: 450px;
+.grid-container{
+  display: grid;  
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 500px;
+  padding-top: 100px;
 }
+
+.Testing-image1,.Testing-image2 {
+  width: 50%;
+  margin-left: 25%;
+  height: 250px;
+  margin-top: 100px;
+}
+
+.grid2 {
+  width: 90%;
+  margin-left: 5%;
+  font-size: 25px;
+  padding: 0;
+}
+
+footer{
+  height: 200px;
+  border-top: #c0392b 2px solid;
+}
+
+
+
