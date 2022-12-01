@@ -34,9 +34,9 @@ body {
     color: white;
     background-color: #c0392b;
     border: none;
-    padding: 10px;
+    padding: 20px;
     letter-spacing: 4px;
-    margin: 28px 28px;
+    margin-left: 48px;
 
   }
   
@@ -56,14 +56,13 @@ body {
     z-index: 1;
     width: 100%;
     text-align: center;
-    border: solid black 2px;
+    border: solid black 1px;
     border-radius: 20px;
   }
   
   /* Links inside the dropdown */
 .dropdown-content a {
     color: black;
-    padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: center;
@@ -71,7 +70,10 @@ body {
   }
   
   /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    border-style: solid;
+}
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
@@ -79,7 +81,7 @@ body {
   }
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
+.dropdown:hover .dropbtnn {
     background-color: #c0392b;
   }
 
@@ -105,9 +107,10 @@ li {
     font-family: Cambria;
     font-weight: 500;
     color: white;
-    padding: 10px;
+    padding: 20px;
     letter-spacing: 4px;
-    margin: 38px 38px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
   
 .navbar a:hover{
