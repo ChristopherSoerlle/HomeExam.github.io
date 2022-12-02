@@ -83,19 +83,18 @@ li {
 
 .info{
     text-align: center;
-    width: 75%;
+    width: 70%;
     padding: 10px;
     margin-top: 50px; 
 }
 .info p{
     text-align: justify;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 100%;
+    margin-left: 20%;
     font-size: 20px;
     font-weight: 500;
     margin-top: 10%;
-    line-height: 1.5;
+    line-height: 1.8em;
 }
 
 .lokasjon{
