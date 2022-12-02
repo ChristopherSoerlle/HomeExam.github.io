@@ -22,12 +22,6 @@ body {
  margin-top: 20px;
 }
 
-.Header-Image:hover{
-  opacity: 0.9;
-}
-
-
-
 .Main-Title{
   position: relative;
   letter-spacing: 3px;
@@ -89,11 +83,11 @@ li {
 
 .container{
   display: grid;
-  grid-template-rows: repeat(2, 750px);
-  grid-template-columns: repeat(1fr 2fr 1fr);
+  grid-template-rows: repeat(2, 1000px);
+  grid-template-columns: repeat(1fr 1fr 2fr);
   column-rule: #130f40;
   column-rule-style: solid;
-  row-gap: 100px;
+  row-gap: 20px;
   text-align: justify;
   font-size: 16px; 
   letter-spacing: 2px;
@@ -106,34 +100,39 @@ h2{
 }
 
 .grid1{
-  grid-column-start: 2;
-  grid-column-end: 2;
+  grid-column-start: 3;
+  grid-column-end: 3;
   grid-row-start: 1;
-  grid-row-end: 1;
+  grid-row-end: 2;
   margin-top: 10px;
   line-height: 1.7em;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 15px;
+  width: 90%;
 }
 
 .grid2{
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-end: 1;
   align-items: center;
 }
 
 .grid3{
-  grid-column-start: 2;
-  grid-column-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 1;
   grid-row-start: 2;
-  grid-row-end: 3;
-  margin-top: 40px; 
+  grid-row-end: 2;
+  margin-top: 10px;
+  margin-left: 20%;
   line-height: 1.7em;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 15px;
+  width: 90%;
 }
+
+
 
 .grid4{
 grid-column-start: 3;
@@ -141,7 +140,7 @@ grid-column-end: 3;
 grid-row-start: 2;
 grid-row-end: 2;
 align-items: center;
-
+margin-right: 30%;
 }
 
 .grid1:hover, .grid3:hover{
@@ -162,14 +161,12 @@ align-items: center;
 }
 
 .grid-img1{
-  height: 420px;
-  width: 340px;
-  margin-right: 30px;
-  margin-left: 30px;
+  height: 520px;
+  width: 440px;
   border-style: solid;
   border-radius: 20px;
-  margin-top: 100%;
-  position: sticky;
+  margin-top: 35%;
+  margin-left: 25%;
 }
 
 .grid-img1:hover{
@@ -177,13 +174,13 @@ align-items: center;
 }
 
 .grid-img2{
-  height: 420px;
-  width: 340px;
-  margin-right: 30px;
-  margin-left: 30px;
+  height: 520px;
+  width: 440px;
+  position:relative;
+  left: 35%;
+  margin-top: 35%;
   border-style: solid;
   border-radius: 20px;
-  margin-top: 10%; 
 }
 
 .grid-img2:hover{
@@ -209,7 +206,7 @@ align-items: center;
 }
 
 footer{
-  height: 300px;
+  height: 200px;
   margin-top: 0;
 }
 
