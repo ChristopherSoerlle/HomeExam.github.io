@@ -182,7 +182,15 @@ li {
     margin-top: 10%;
 }
 
-
+.fotograf{
+    font-size: small;
+    margin-top: 25%;
+   position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 .pizza img{
     margin-top: 95%;
 }
