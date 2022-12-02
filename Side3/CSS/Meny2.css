@@ -88,7 +88,7 @@ body {
 .navbar {
     width: 100%;
     line-height: 100px;
-    background-color: #c0392b;
+    background-color:  #c0392b;
     text-align: center;
     display: inline-block;
     align-items: center;
@@ -122,8 +122,8 @@ li {
 
 .grid{
     display: grid;
-    grid-template-rows: 100px 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 4% 25% 25% 25% 18%;
+    grid-template-columns: 30% 40% 30%;
     position: relative;
     
     
@@ -166,6 +166,10 @@ li {
     
 }
 
+.meny h2{
+    text-decoration: none;
+}
+
 .kolonne1{
     grid-column-start: 1;
     grid-column-end: 2;
@@ -177,8 +181,9 @@ li {
     margin-top: 10%;
 }
 
+
 .pizza img{
-    margin-top: 130%;
+    margin-top: 95%;
 }
 
 .foretter{
@@ -187,9 +192,8 @@ li {
     grid-row-start: 2;
     grid-row-end: 3;
     border-bottom: solid darkgray;
-    width: 500px;
     background-color: white; 
-    border-radius: 4px 4px 0 0;
+    border-radius: 6px 6px 0 0;
     
 }
 
@@ -201,7 +205,7 @@ li {
 }
 
 .pasta img{
-    margin-top: 110%;
+    margin-top: 90%;
 }    
 
 .hovedretter{
@@ -223,7 +227,7 @@ li {
 }
 
 .vin img{
-    margin-top: 110%;
+    margin-top: 90%;
 }
 
 .kolonne4{
@@ -234,11 +238,11 @@ li {
 }
 
 .banansplit img{
-    margin-top: 20%;
+    margin-top: 5%;
 }
 
 .brus img{
-    margin-top: 90%;
+    margin-top: 70%;
 }
 
 .kolonne1 img, .kolonne2 img, .kolonne3 img, .kolonne4 img{
@@ -266,6 +270,8 @@ li {
     grid-row-start: 5;
     grid-row-end: 6;
     background-color: white;
+    border-radius: 0 0 6px 6px;
+    
 }
 
 footer {
