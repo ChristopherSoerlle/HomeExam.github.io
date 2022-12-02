@@ -92,7 +92,6 @@ h2{
 .Restaurant-info p{
   font-size: 20px;
   font-weight: 600;
-  text-shadow: 5px 5px 10px black;
 }
 
 #p1{
@@ -100,7 +99,6 @@ h2{
   margin-top: 12px;
   margin-bottom: 80px;
   line-height: 1.7em;
-  text-align: center;
 }
 
 #p2{
@@ -111,7 +109,14 @@ h2{
 
 #p2 a{
   color:cornsilk;
+  text-shadow: 5px 5px 10px black;
 }
+
+#p2 a:hover{
+  zoom: 1.5;
+  text-shadow: 5px 5px 10px black;
+}
+
 
 hr {
   width: 100%;
@@ -125,6 +130,7 @@ hr {
   border-style: solid;
   border-width: 3px;
   border-radius: 300px;
+  border-color: #c0392b;
 }
 
 .test3,.test4,.test5 {
@@ -147,11 +153,19 @@ hr {
   color: #c0392b; 
   font-size: 22px;
   font-weight: 700;
-  text-shadow: 5px 5px 10px black;
 }
 
 .Booking-utvalg:hover {
   box-shadow: 0px 10px 30px;
+}
+
+.Booking-utvalg a{
+  text-shadow: 5px 5px 10px black;
+}
+
+.Booking-utvalg a:hover{
+  zoom: 1.5;
+  text-shadow: 5px 5px 10px black;
 }
 
 .Bryllups-mottakelse {
@@ -174,9 +188,7 @@ hr {
   text-align: justify; 
 }
 
-a:hover{
-  zoom: 1.5;
-}
+
 
 .Fest {
   display: grid;
@@ -229,7 +241,7 @@ a:hover{
 
 footer {
   margin-top: 200px;
-  background-image: linear-gradient(rgb(152, 152, 252), rgb(136, 255, 223));
+  background-image: linear-gradient(#c0392b, rgb(248, 114, 114));
   border-style: solid;
   display: grid;
   grid-template-columns: 1fr;
@@ -251,7 +263,7 @@ align-items: center;
   grid-template-rows: 1fr 1fr 1fr;
   width: 20px;
   row-gap: 20px;
-  margin-top: 50px;
+  margin-top: 10px;
   line-height: 2em;
   font-size: 35px;
   padding-left: 20%;
@@ -261,20 +273,34 @@ align-items: center;
   color: dodgerblue;
   font-weight: 700;
   text-decoration: none;
+  padding-top: 40px;
 }
 
-.footer-area-3{
-  width: 100px;
-  margin-right: 100px;
+.Links a:hover{
+  zoom: 1.2;
 }
 
 #twitter-logo, #facebook-logo, #instagram-logo {
-  height: 30px;
+  height: 50px;
+  margin-top: 40px;
 }
+
+#twitter-logo:hover, #facebook-logo:hover, #instagram-logo:hover{
+  zoom: 1.2;
+}
+
+
+.footer-area-3{
+  width: 100px;
+  margin-right: 20%;
+}
+
+
 
 #adresse-kart{
   height: 200px;
   margin-top: 30px;  
+  border: none;
 }
 
 #adresse-kart:hover{
