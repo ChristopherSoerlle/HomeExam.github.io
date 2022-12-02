@@ -78,7 +78,7 @@ li {
     margin-right: auto;
     padding: 50px;
     background-color: rgb(191, 172, 149);
-    border-radius: 100%; 
+    border-radius: 50%; 
 }
 
 .info{
@@ -86,6 +86,16 @@ li {
     width: 75%;
     padding: 10px;
     margin-top: 50px; 
+}
+.info p{
+    text-align: justify;
+    width: 75%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10%;
+    line-height: 1.5;
 }
 
 .lokasjon{
