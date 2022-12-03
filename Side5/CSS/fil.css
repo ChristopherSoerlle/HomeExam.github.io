@@ -60,7 +60,9 @@ li {
   border-style: solid;
 }
 
-.grid-container{
+/*Main*/
+
+.grid1{
   display: grid;  
   grid-template-columns: 1fr 1fr 1fr;
   height: 500px;
@@ -80,6 +82,9 @@ li {
   font-size: 25px;
   padding: 0;
 }
+
+
+/*Footer*/
 
 footer {
   margin-top: 200px;
@@ -131,13 +136,10 @@ align-items: center;
   zoom: 1.2;
 }
 
-
 .footer-area-3{
   width: 100px;
   margin-right: 20%;
 }
-
-
 
 #adresse-kart{
   height: 200px;
