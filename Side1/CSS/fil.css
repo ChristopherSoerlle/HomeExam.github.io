@@ -1,3 +1,6 @@
+
+/*Stor skjerm------------------------------------------------------------ */
+
 @media screen and  (min-width: 1001px){
   body {
     height: 100%;
@@ -89,25 +92,26 @@
   }
   
   .Restaurant-info p{
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 200;
   }
   
   #p1{
     position: relative;
     margin-top: 12px;
     margin-bottom: 80px;
-    line-height: 1.7em;
+    line-height: 2.2em;
+   
   }
   
   #p2{
    position: relative;
    margin-top: 80px;
-   line-height: 1.7em;
+   line-height: 2.2em;
   }
   
   #p2 a{
-    color:cornsilk;
+    color: white;
     text-shadow: 5px 5px 10px black;
   }
   
@@ -149,8 +153,8 @@
     border-radius: 6px;
     margin-top: 30px;
     color: #c0392b; 
-    font-size: 22px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 200;
   }
   
   .Booking-utvalg:hover {
@@ -309,6 +313,7 @@
   }
 }
 
+/*Medium skjerm------------------------------------------------------------ */
 
 @media screen and (max-width: 1000px)
 {
@@ -601,6 +606,7 @@
   
   .kart{
     height: 90%;
+    color: beige;
   }
 
   #adresse-kart{
@@ -614,4 +620,340 @@
     zoom: 1.2;
   }
 
+}
+
+/*Liten skjerm------------------------------------------------------------ */
+
+@media screen and (max-width: 420px){
+  body {
+    height: 100%;
+    background-color:beige;
+    margin: 0;
+    padding: 0;  
+  }
+  
+  .Header-Image {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Side1/Images/Nature.png);
+    height: 15vh;
+    width: 100%;
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .Main-Title{
+    position: relative;
+    text-shadow: 5px 5px 10px black;
+    letter-spacing: 3px;
+    color:#c0392b;
+    font-size: 14px;
+    margin-top: 12%;
+  }
+  
+  .navbar {
+    width: 100%;
+    line-height: 0.8em; 
+    background-color: #c0392b;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+  }
+  
+  li {
+    list-style: none;
+    display: block;
+  }
+  
+  .navbar a{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    color: beige;
+    letter-spacing: 3px;
+    text-align: center;
+    display: block;
+    border: solid 2px beige;
+    margin-left: 8%;
+    margin-right: 20%;
+  }
+  
+  .navbar a:hover{
+    background-color: white;
+    color: #130f40;
+    border-radius: 20px;
+    border-style: solid;
+  }
+  
+  h2{
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .Restaurant-info{
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 15%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #c0392b;
+    color: #c0392b;
+    border-radius: 6px;
+    align-items: center;
+    display: block;
+  }
+  
+  .Restaurant-info p{
+    font-size: 20px;
+    font-weight: 100;
+  }
+  
+  #p1{
+    position: relative;
+    margin-top: 12px;
+    margin-bottom: 80px;
+    line-height: 1.6em;
+  }
+  
+  #p2{
+   position: relative;
+   margin-top: 80px;
+   line-height: 1.6em;
+  }
+  
+  #p2 a{
+    color:white;
+    text-shadow: 5px 5px 10px black;
+  }
+  
+  #p2 a:hover{
+    zoom: 1.5;
+    text-shadow: 5px 5px 10px black;
+  }
+  
+  
+  .test2 {
+    height: 180px;
+    width: 50%;
+    margin-left: 25%; 
+    margin-top: 5%;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 60px;
+    border-color: #c0392b;
+  }
+  
+  .test3,.test5 {
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    margin-left: 12%;
+    border-width: 3px;
+    border-radius: 130px;
+  }
+
+  .test3:hover, .test4:hover .test5:hover{
+    border-style: solid;
+    border-width: 1px;
+    zoom: 1.7;
+    height: 100%;
+    width: 200%;
+    z-index: 4;
+  }
+  .test4{
+    margin-right: 10px;  
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    border-width: 3px;
+    border-radius: 130px;
+  }
+
+
+  .Booking-utvalg {
+    width: 90%;
+    margin-left: 4%;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 6px;
+    margin-top: 30px;
+    color: #c0392b; 
+    font-size: 20px;
+    font-weight: 100;
+  }
+  
+  .Booking-utvalg a{
+    text-shadow: 5px 5px 10px black;
+  }
+  
+  .Booking-utvalg a:hover{
+    zoom: 1.5;
+    text-shadow: 5px 5px 10px black;
+  }
+  
+  .Bryllups-mottakelse {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 50px;
+    align-items: center;
+  }
+  
+  .Bryllups-Info {
+    border-style:dotted;
+    border-radius: 20px;
+    border-width: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: justify; 
+    width: 70%;
+    margin-left: 15%;
+  }
+  
+  .Fest {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-top: 50px;
+    align-items: center;
+  }
+  
+  .Fest-Info {
+    border-style:dotted;
+    border-radius: 20px;
+    border-width: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: justify;
+    width: 70%;
+    margin-left: 15%;
+  }
+  
+  .Konfirmasjonsfest {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+  }
+  
+  .Konfirmasjons-Info {
+    border-style:dotted;
+    border-radius: 20px;
+    border-width: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: justify;
+    width: 70%;
+    margin-left: 15%;
+  }
+  
+  .Bryllups-Info a, .Fest-Info a, .Konfirmasjons-Info a{
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 28px;
+    color: azure;
+  }
+  
+  footer {
+    margin-top: 10%;
+    height: 45%;
+    background-image: linear-gradient(#c0392b, rgb(248, 114, 114));
+    border-style: solid;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  
+  
+  .Footer-info {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  column-gap: 10px;
+  text-align: center;
+  align-items: baseline;
+  }
+  
+  .Links{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 20px;
+    margin-top: 10%;
+    margin-right: 10px;
+    line-height: 2.6em;
+  }
+  
+  .Links a{
+    color: beige;
+    font-weight: 700;
+    text-decoration: none;
+    padding-top: 40px;
+    font-size: 20px;
+  }
+  
+  .Links a:hover{
+    zoom: 1.2;
+  }
+
+  .Socials{
+    color: beige;
+  }
+
+  .Socials h2{
+    font-size: 18px;
+    text-decoration: underline;
+  }
+
+
+  #twitter-logo, #facebook-logo, #instagram-logo {
+    height: 10%;
+    line-height: 1.7em;
+    width: 100%;
+    color: beige;
+    font-size: 15px;
+  }
+  
+  #twitter-logo:hover, #facebook-logo:hover, #instagram-logo:hover{
+    zoom: 1.2;
+    border-style: solid;
+    border-width: 2px;
+    border-color: beige;
+    border-radius: 20px;
+  }
+  
+  
+  .kart{
+    height: 90%;
+    color: beige;
+    line-height: 1.1em;
+    font-size: 14px;
+  }
+
+  .kart h2{
+    font-size: 20px;
+  }
+
+  #adresse-kart{
+    width: 80%;
+    height: 40%;
+    margin-top: 30px;  
+    border: none;
+  }
+  
+  #adresse-kart:hover{
+    zoom: 1.1;
+  }
 }
