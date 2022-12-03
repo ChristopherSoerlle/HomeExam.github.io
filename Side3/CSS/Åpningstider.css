@@ -19,8 +19,6 @@ li {
   display: inline-block;
 }
 
-
-
 .navbar a{
   text-decoration: none;
   font-size: 18px;
@@ -38,21 +36,7 @@ li {
   border-radius: 20px;
   border-style: solid;
 }
-
-.Footer {
-  color: black;
-  width: 100%;
-  height: 250px;
-  background-color: #c0392b;
-}
-
-#kontaktinfo2 {
-  text-align: center;
-  padding-top: 28px;
-  font-size: 24px;
-  line-height: 1.7em;
-}
-
+  
 .åpningstider {
   font-family: Cambria;
   font-weight: 200;
@@ -65,6 +49,52 @@ li {
   margin-right: 25%;
   background-color: white;
   font-size: 40px;
-  line-height: 50px;
+  line-height: 2;
+
 }
+
+.åpningstider h2{
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 100px;
+  background-image: linear-gradient(#c0392b, rgb(248, 114, 114));
+  border-style: solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.Links{
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  margin-top: 6%;
+  margin-left: 12%;
+  line-height: 2em;
+  font-size: 35px;
+}
+
+.Links a{
+  color: dodgerblue;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.Links a:hover{
+  zoom: 1.2;
+}
+
+footer p {
+  margin-top: 6%;
+  margin-right: 20px;
+  text-align: justify; 
+  font-size: 24px;
+  line-height: 2.8em;
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+
 
