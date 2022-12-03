@@ -1,8 +1,9 @@
-@media screen and  (min-width: 1250px){
+@media screen and  (min-width: 1001px){
   body {
     height: 100%;
     background-color:beige;
     margin: 0;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   
   .Header-Image {
@@ -22,13 +23,13 @@
     text-shadow: 5px 5px 10px black;
     letter-spacing: 3px;
     color:#c0392b;
-    font-size: 46px;
+    font-size: 36px;
     top: 20%;
   }
   
   .navbar {
     width: 100%;
-    line-height: 100px;
+    line-height: 80px;
     background-color: #c0392b;
     text-align: center;
     display: inline-block;
@@ -43,13 +44,11 @@
   .navbar a{
     text-decoration: none;
     font-size: 18px;
-    font-family: Cambria;
-    font-weight: 500;
-    color: white;
-    padding: 20px;
+    color: beige;
+    padding: 8px;
     letter-spacing: 4px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
   }
   
   .navbar a:hover{
@@ -269,7 +268,7 @@
   }
   
   .Links a{
-    color: dodgerblue;
+    color: beige;
     font-weight: 700;
     text-decoration: none;
     padding-top: 40px;
@@ -282,16 +281,19 @@
   #twitter-logo, #facebook-logo, #instagram-logo {
     height: 50px;
     margin-top: 40px;
+    color: beige;
   }
   
   #twitter-logo:hover, #facebook-logo:hover, #instagram-logo:hover{
     zoom: 1.2;
   }
   
+  .Socials{
+    color: beige;
+  }
   
-  .footer-area-3{
-    width: 100px;
-    margin-right: 20%;
+  .kart{
+  color: beige;
   }
   
   
@@ -308,10 +310,7 @@
 }
 
 
-
-
-
-@media screen and (max-width: 1249px)
+@media screen and (max-width: 1000px)
 {
   body {
     height: 100%;
@@ -344,7 +343,7 @@
   
   .navbar {
     width: 100%;
-    line-height: 2em;
+    line-height: 1.8em; 
     background-color: #c0392b;
     display: inline-block;
     text-align: center;
@@ -358,13 +357,13 @@
   .navbar a{
     text-decoration: none;
     font-size: 12px;
-    font-family: Cambria;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
-    color: white;
+    color: beige;
     padding: 10px;
     letter-spacing: 3px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
     text-align: center;
   }
   
@@ -380,10 +379,6 @@
     text-align: center;
   }
   
-  .container{
-    display: inline-block;
-  }
-  
   .Restaurant-info{
     width: 50%;
     margin-left: 25%;
@@ -392,17 +387,12 @@
     padding-right: 15px;
     margin-top: 30px;
     border-style: solid;
-    border-width: 6px;
+    border-width: 2px;
     border-color: #c0392b;
     color: #c0392b;
     border-radius: 6px;
     align-items: center;
     display: block;
-  }
-  
-  .Restaurant-info:hover{
-    box-shadow: 0px 10px 30px;
-    box-shadow: #c0392b;
   }
   
   .Restaurant-info p{
@@ -440,7 +430,7 @@
     margin-left: 25%; 
     margin-top: 5%;
     border-style: solid;
-    border-width: 3px;
+    border-width: 2px;
     border-radius: 60px;
     border-color: #c0392b;
   }
@@ -464,20 +454,15 @@
   }
 
   .Booking-utvalg {
-    width: 96%;
-    margin-left: 2%;
-    margin-right: 10px;
+    width: 90%;
+    margin-left: 4%;
     border-style: solid;
-    border-width: 6px;
+    border-width: 2px;
     border-radius: 6px;
     margin-top: 30px;
     color: #c0392b; 
     font-size: 22px;
     font-weight: 700;
-  }
-  
-  .Booking-utvalg:hover {
-    box-shadow: 0px 10px 30px;
   }
   
   .Booking-utvalg a{
@@ -508,8 +493,6 @@
     width: 70%;
     margin-left: 15%;
   }
-  
-  
   
   .Fest {
     display: grid;
@@ -590,7 +573,7 @@
   }
   
   .Links a{
-    color: dodgerblue;
+    color: beige;
     font-weight: 700;
     text-decoration: none;
     padding-top: 40px;
@@ -600,10 +583,15 @@
     zoom: 1.2;
   }
 
+  .Socials{
+    color: beige;
+  }
+
   #twitter-logo, #facebook-logo, #instagram-logo {
-    height: 10%;
-    margin-top: 5%;
-    width: 33%;
+    height: 50%;
+    margin-top: 8%;
+    width: 50%;
+    color: beige;
   }
   
   #twitter-logo:hover, #facebook-logo:hover, #instagram-logo:hover{
@@ -612,14 +600,12 @@
   
   
   .kart{
-    height: 100%;
-    margin-right: 20%;
-    margin-top: 5%;
+    height: 90%;
   }
 
   #adresse-kart{
-    height: 160px;
-    width: 95%;
+    width: 70%;
+    height: 30%;
     margin-top: 30px;  
     border: none;
   }
