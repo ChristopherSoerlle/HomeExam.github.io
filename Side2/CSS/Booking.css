@@ -3,6 +3,7 @@ body {
     height: 100%;
     width: 100%;
     background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*Stor skjerm--------------------------------------------------------------------------------------------------*/
@@ -48,9 +49,8 @@ li {
 .navbar a{
   text-decoration: none;
   font-size: 18px;
-  font-family: Cambria;
   font-weight: 500;
-  color: white;
+  color: beige;
   padding: 20px;
   letter-spacing: 4px;
   margin-left: 30px;
@@ -195,7 +195,7 @@ footer {
     }
   
 .Links a{
-    color: dodgerblue;
+    color: beige;
     font-weight: 700;
     text-decoration: none;
     padding-top: 40px;
@@ -204,10 +204,15 @@ footer {
 .Links a:hover{
     zoom: 1.2;
 }
+
+.Socials{
+    color: beige;
+}
   
 #twitter-logo, #facebook-logo, #instagram-logo {
     height: 50px;
     margin-top: 40px;
+    color: beige;
 }
   
 #twitter-logo:hover, #facebook-logo:hover, #instagram-logo:hover{
@@ -215,9 +220,8 @@ footer {
 }
   
   
-.footer-area-3{
-    width: 100px;
-    margin-right: 20%;
+.kart{
+color: beige;
 }
    
 #adresse-kart{
