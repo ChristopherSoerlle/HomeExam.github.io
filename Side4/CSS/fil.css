@@ -5,7 +5,6 @@ body {
   background-image: linear-gradient(rgb(194, 225, 255), rgb(255, 244, 182));
 }
 
-
 .Header-Image{
  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Side4/Images/giphy.gif);
  height: 400px;
@@ -96,7 +95,7 @@ h2{
   color: dodgerblue;
 }
 
-.grid1{
+.topictext1{
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
@@ -111,7 +110,7 @@ h2{
   overflow: scroll;
 }
 
-.grid2{
+.topiclink{
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 1;
@@ -119,7 +118,7 @@ h2{
   align-items: center;
 }
 
-.grid3{
+.topictext2{
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
@@ -135,7 +134,7 @@ h2{
 
 
 
-.grid4{
+.topicbilde{
 grid-column-start: 2;
 grid-column-end: 3;
 grid-row-start: 2;
@@ -144,7 +143,7 @@ align-items: center;
 
 }
 
-.grid1:hover, .grid3:hover{
+.topictext1:hover,.topictext2:hover{
   zoom: 1.1;
   color: #130f40;
   font-family:fantasy;
@@ -152,12 +151,12 @@ align-items: center;
   line-height: 1.6em;
 }
 
-.grid1 a, .grid3 a{
+.topictext1 a, .topictext2 a{
   color:rgb(26, 106, 255);
   text-decoration: none;
 }
 
-.grid1 a:hover, .grid3 a:hover{
+.topictext1 a:hover, .topictext2 a:hover{
   zoom: 1.2;
 }
 
@@ -201,6 +200,9 @@ footer{
   align-items: center;
 }
 }
+
+
+/*Medium skjerm------------------------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 1000px)
 {
@@ -302,7 +304,7 @@ footer{
     line-height: 1.3em;
   }
   
-  .grid1{
+  .topictext1{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -316,7 +318,7 @@ footer{
     font-size: 15px;
   }
   
-  .grid2{
+  .topiclink{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -324,7 +326,7 @@ footer{
     align-items: center;
   }
   
-  .grid3{
+  .topictext2{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 3;
@@ -338,7 +340,7 @@ footer{
   
   
   
-  .grid4{
+  .topicbilde{
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 4;
@@ -347,7 +349,7 @@ footer{
   
   }
   
-  .grid1:hover, .grid3:hover{
+  .topictext1:hover, .topictext2:hover{
     zoom: 1.1;
     color: #130f40;
     font-family:fantasy;
@@ -355,12 +357,12 @@ footer{
     line-height: 1.6em;
   }
   
-  .grid1 a, .grid3 a{
+  .topictext1 a, .topictext2 a{
     color:rgb(26, 106, 255);
     text-decoration: none;
   }
   
-  .grid1 a:hover, .grid3 a:hover{
+  .topictext1 a:hover, .topictext2 a:hover{
     zoom: 1.2;
   }
   
@@ -401,6 +403,9 @@ footer{
     align-items: center;
   }
 }
+
+
+/*Liten skjerm-------------------------------------------------------------------------------------------------*/
 
 @media (max-width: 420px){
   body {
@@ -499,7 +504,7 @@ footer{
     line-height: 1.3em;
   }
   
-  .grid1{
+  .topictext1{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -515,7 +520,7 @@ footer{
     overflow: scroll;
   }
   
-  .grid2{
+  .topiclink{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -523,7 +528,7 @@ footer{
     align-items: center;
   }
   
-  .grid3{
+  .topictext2{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 3;
@@ -538,7 +543,7 @@ footer{
   }
   
   
-  .grid4{
+  .topicbilde{
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 4;
@@ -547,7 +552,7 @@ footer{
   
   }
   
-  .grid1 a, .grid3 a{
+  .topictext1 a, .topictext2 a{
     color:rgb(26, 106, 255);
     text-decoration: none;
   }
