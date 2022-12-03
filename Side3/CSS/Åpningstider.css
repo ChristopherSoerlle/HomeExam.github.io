@@ -24,7 +24,7 @@ li {
   font-size: 18px;
   font-family: Cambria;
   font-weight: 500;
-  color: white;
+  color: beige;
   padding: 20px;
   letter-spacing: 4px;
   margin: 28px 28px;
@@ -78,7 +78,7 @@ footer {
 }
 
 .Links a{
-  color: dodgerblue;
+  color: beige;
   font-weight: 700;
   text-decoration: none;
 }
@@ -89,12 +89,22 @@ footer {
 
 footer p {
   margin-top: 6%;
-  margin-right: 20px;
+  margin-right: 5%;
   text-align: justify; 
   font-size: 24px;
   line-height: 2.8em;
   grid-column-start: 2;
   grid-column-end: 2;
+  color: beige;
+}
+
+footer p a{
+  color: beige;
+  text-decoration: none;
+}
+
+footer p a:hover{
+  zoom: 1.4;
 }
 
 
