@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: beige;
-    rgb(189, 152, 113);
 }
 
 @media screen
@@ -37,7 +37,7 @@ and (min-width: 701)
     font-size: 18px;
     font-family: Cambria;
     font-weight: 500;
-    color: white;
+    color: beige;
     background-color: #c0392b;
     border: none;
     padding: 20px;
@@ -112,7 +112,7 @@ li {
     font-size: 18px;
     font-family: Cambria;
     font-weight: 500;
-    color: white;
+    color: beige;
     padding: 20px;
     letter-spacing: 4px;
     margin-left: 30px;
@@ -526,7 +526,7 @@ li {
     grid-row-start: 2;
     grid-row-end: 4;   
 }   
-}
+
 
 .pasta img{
     margin-top: 120%;
@@ -636,5 +636,4 @@ footer p {
     grid-column-start: 2;
     grid-column-end: 2;
 }
-
 }
