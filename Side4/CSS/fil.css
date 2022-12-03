@@ -1,3 +1,5 @@
+/* Stor Skjerm ------------------------------------------------------------------------------------------- */
+
 @media screen and  (min-width: 1001px){
 body {
   height: 100%;
@@ -6,7 +8,7 @@ body {
 }
 
 .Header-Image{
- background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Side4/Images/giphy.gif);
+ background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Side4/Images/technology.png);
  height: 400px;
  width: 100%;
  background-position: center;
@@ -201,20 +203,20 @@ footer{
 }
 }
 
+/* Middels Skjerm ------------------------------------------------------------------------------------------- */
 
-/*Medium skjerm------------------------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 1000px)
 {
   body {
     height: 100%;
     margin: 0;
-    background-image: linear-gradient(red,green,blue,white);
+    background-image: linear-gradient(rgb(194, 225, 255), rgb(255, 244, 182));
   }
   
   
   .Header-Image{
-   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Side4/Images/giphy.gif);
+   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Side4/Images/technology.png);
    height: 50vh;
    width: 100%;
    background-position: center;
@@ -234,7 +236,7 @@ footer{
     font-size: 16px;
     letter-spacing: 5px;
     text-shadow: 5px 5px 10px black;
-    top: 80%;
+    top: 75%;
   }
   
   .Main-Title:hover{
@@ -405,18 +407,19 @@ footer{
 }
 
 
-/*Liten skjerm-------------------------------------------------------------------------------------------------*/
+
+/* Liten Skjerm ------------------------------------------------------------------------------------------- */
 
 @media (max-width: 420px){
   body {
     height: 100%;
     margin: 0;
-    background-image: linear-gradient(red,green,blue,white);
+    background-image: linear-gradient(rgb(194, 225, 255), rgb(255, 244, 182));
   }
   
   
   .Header-Image{
-   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Side4/Images/giphy.gif);
+   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Side4/Images/technology.png);
    height: 20vh;
    width: 100%;
    background-position: center;
