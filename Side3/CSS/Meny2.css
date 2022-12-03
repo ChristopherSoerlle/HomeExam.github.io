@@ -5,6 +5,8 @@ body {
     background-color: beige;
 }
 
+/*Stor skjerm---------------------------------------------------------------------------------------------------*/
+
 @media screen
 and (min-width: 1099px)
 {
@@ -161,7 +163,7 @@ li {
     letter-spacing: 2px;
     padding-bottom: 10px;
     color: black;
-    text-decoration: underline;
+    text-decoration: underline dotted darkgray;
 }
 
 .meny{
@@ -174,6 +176,7 @@ li {
 
 .meny h2{
     text-decoration: none;
+    padding-top: 20px;
 }
 
 .kolonne1{
@@ -478,7 +481,7 @@ ul {
     letter-spacing: 2px;
     padding-bottom: 10px;
     color: black;
-    text-decoration: underline;
+    text-decoration: underline dotted darkgray;
 }
 
 .meny{
@@ -491,6 +494,7 @@ ul {
 
 .meny h2{
     text-decoration: none;
+    padding: 4%;
 }
 
 .kolonne1{
@@ -663,8 +667,9 @@ and (max-width: 500px){
     text-shadow: 5px 5px 10px black;
     letter-spacing: 3px;
     color:#c0392b;
-    font-size: 46px;
+    font-size: 150%;
     top: 20%;
+
   }
 
 .dropbtn {
@@ -763,7 +768,7 @@ ul {
 
 .grid{
     display: grid;
-    grid-template-rows: 5% 27% 25% 25% 18%;
+    grid-template-rows: 5% 30% 25% 25% 18%;
     grid-template-columns: 35% 64%;
     column-gap: 1%;
     position: relative; 
@@ -783,19 +788,19 @@ ul {
 }
 
 .grid i{
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .grid h2 {
     text-align: center;
     font-style: italic;
-    font-size: 30px;
+    font-size: 28px;
     margin: 0;
     padding-top: 10px;
     letter-spacing: 2px;
     padding-bottom: 5px;
     color: black;
-    text-decoration: underline;
+    text-decoration: underline dotted darkgray;
 }
 
 .meny{
@@ -808,6 +813,7 @@ ul {
 
 .meny h2{
     text-decoration: none;
+    padding: 4%;
 }
 
 .kolonne1{
@@ -948,7 +954,7 @@ footer p {
     margin-top: 6%;
     margin-right: 20px;
     text-align: center; 
-    font-size: 16px;
+    font-size: 14px;
     line-height: 2.8em;
     grid-column-start: 2;
     grid-column-end: 2;
