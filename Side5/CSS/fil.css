@@ -87,7 +87,7 @@ li {
 /*Footer*/
 
 footer {
-  margin-top: 200px;
+  margin-top: 300px;
   background-image: linear-gradient(#c0392b, rgb(248, 114, 114));
   border-style: solid;
   display: grid;
@@ -97,11 +97,11 @@ footer {
 
 
 .Footer-info {
-display: grid;
-grid-template-columns: 1fr 2fr 1fr;
-height: 450px;
-text-align: center;
-align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  height: 450px;
+  text-align: center;
+  align-items: center;
 }
 
 .Links{
@@ -114,10 +114,10 @@ align-items: center;
   line-height: 2em;
   font-size: 35px;
   padding-left: 20%;
-}
+  }
 
 .Links a{
-  color: dodgerblue;
+  color: beige;
   font-weight: 700;
   text-decoration: none;
   padding-top: 40px;
@@ -127,20 +127,25 @@ align-items: center;
   zoom: 1.2;
 }
 
+.Socials{
+  color: beige;
+}
+
 #twitter-logo, #facebook-logo, #instagram-logo {
   height: 50px;
   margin-top: 40px;
+  color: beige;
 }
 
 #twitter-logo:hover, #facebook-logo:hover, #instagram-logo:hover{
   zoom: 1.2;
 }
 
-.footer-area-3{
-  width: 100px;
-  margin-right: 20%;
-}
 
+.kart{
+color: beige;
+}
+ 
 #adresse-kart{
   height: 200px;
   margin-top: 30px;  
