@@ -289,6 +289,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
+    color: beige;
 }
 
 .Links{
@@ -302,7 +303,7 @@ footer {
   }
   
 .Links a{
-    color: dodgerblue;
+    color: beige;
     font-weight: 700;
     text-decoration: none;
 }
@@ -429,7 +430,7 @@ ul {
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
-    color: white;
+    color: beige;
     padding: 20px;
     letter-spacing: 4px;
     margin-left: 30px;
@@ -604,6 +605,7 @@ footer {
     display: grid;
     grid-template-columns: 40% 60%;
     grid-template-rows: 1fr;
+    color: beige;
 }
 
 .Links{
@@ -617,7 +619,7 @@ footer {
   }
   
 .Links a{
-    color: dodgerblue;
+    color: beige;
     font-weight: 700;
     text-decoration: none;
 }
@@ -673,7 +675,7 @@ and (max-width: 500px){
     text-align: center;
     font-size: 18px;
     font-weight: 500;
-    color: white;
+    color: beige;
     background-color: #c0392b;
     border: none;
     padding: 20px;
@@ -745,7 +747,7 @@ ul {
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
-    color: white;
+    color: beige;
     padding: 20px;
     letter-spacing: 4px;
     margin-left: 30px;
@@ -930,7 +932,7 @@ footer {
     margin-top: 6%;
     margin-left: 12%;
     line-height: 2em;
-    font-size: 20px;
+    font-size: 18px;
   }
   
 .Links a{

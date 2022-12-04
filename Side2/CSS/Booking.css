@@ -279,7 +279,7 @@ and (max-width: 1100px) {
       text-decoration: none;
       font-size: 18px;
       font-weight: 500;
-      color: white;
+      color: beige;
       padding: 20px;
       letter-spacing: 4px;
       margin-left: 30px;
@@ -507,9 +507,8 @@ and (max-width: 700px) {
       display: block;   
       text-decoration: none;
       font-size: 18px;
-      font-family: Cambria;
       font-weight: 500;
-      color: white;
+      color: beige;
       padding: 20px;
       letter-spacing: 4px;
       margin-left: 30px;
@@ -694,18 +693,17 @@ and (max-width: 700px) {
       
       
     .kart{
+
         height: 90%;
         color: beige;
         line-height: 1.1em;
         font-size: 12px;
-      }
+    }
     
-      .kart h2{
+    .kart h2{
         font-size: 12px;
-      }
-      
-      
-      
+    }
+       
     #adresse-kart{
         height: 28%;
         width: 80%;
