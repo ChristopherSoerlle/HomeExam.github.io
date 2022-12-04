@@ -81,13 +81,11 @@ li {
     margin-left: 48px;
   }
   
- /* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
     display: inline-block;
   }
   
- /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display:none;
     position: absolute;
@@ -101,7 +99,6 @@ li {
     border-radius: 20px;
   }
   
-  /* Links inside the dropdown */
 .dropdown-content a {
     color: black;
     text-decoration: none;
@@ -110,19 +107,16 @@ li {
     align-items: center;
   }
   
-  /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
     background-color: #f1f1f1;
     border-style: solid;
     margin: 20px 20px; 
 }
   
-  /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
   }
   
-  /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtnn {
     background-color: #c0392b;
   }
@@ -337,7 +331,7 @@ and (max-width: 1100px){
 
 .Header-Image {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Side1/Images/Nature.png);
-    height: 50vh;
+    height: 30vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -369,13 +363,11 @@ and (max-width: 1100px){
     margin-left: 48px;
   }
   
- /* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
     display: inline-block;
   }
   
- /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display:none;
     position: absolute;
@@ -389,7 +381,6 @@ and (max-width: 1100px){
     border-radius: 20px;
   }
   
-  /* Links inside the dropdown */
 .dropdown-content a {
     color: black;
     text-decoration: none;
@@ -398,19 +389,16 @@ and (max-width: 1100px){
     align-items: center;
   }
   
-  /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
     background-color: #f1f1f1;
     border-style: solid;
     margin: 20px 20px; 
 }
   
-  /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
   }
   
-  /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtnn {
     background-color: #c0392b;
   }
@@ -452,7 +440,7 @@ ul {
     display: grid;
     grid-template-rows: 5% 25% 25% 25% 20%;
     grid-template-columns: 38% 60%;
-    column-gap: 2%;
+    column-gap: 1%;
     position: relative;
 }
 
@@ -648,8 +636,6 @@ footer p a{
 
 }
 
-
-
 /*Liten skjerm-------------------------------------------------------------------------------------------*/
 
 @media screen
@@ -658,7 +644,7 @@ and (max-width: 500px){
 
 .Header-Image {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Side1/Images/Nature.png);
-    height: 50vh;
+    height: 20vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -689,14 +675,13 @@ and (max-width: 500px){
     padding: 20px;
     letter-spacing: 4px;
   }
-  
- /* The container <div> - needed to position the dropdown content */
+
 .dropdown {
     position: relative;
     display: inline-block;
   }
   
- /* Dropdown Content (Hidden by Default) */
+
 .dropdown-content {
     display:none;
     position: absolute;
@@ -710,7 +695,7 @@ and (max-width: 500px){
     border-radius: 20px;
   }
   
-  /* Links inside the dropdown */
+
 .dropdown-content a {
     color: black;
     text-decoration: none;
@@ -719,19 +704,17 @@ and (max-width: 500px){
     align-items: center;
   }
   
-  /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
     background-color: #f1f1f1;
     border-style: solid;
     margin: 20px 20px; 
 }
   
-  /* Show the dropdown menu on hover */
+
   .dropdown:hover .dropdown-content {
     display: block;
   }
   
-  /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtnn {
     background-color: #c0392b;
   }
