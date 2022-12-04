@@ -527,7 +527,7 @@
   }
   
   .Tekst{
-    width: 70%;
+    width: 80%;
     height: 100%;
     grid-column-start: 1;
     grid-column-end: 1;
@@ -535,7 +535,7 @@
     grid-row-end: end;
     text-align: justify;
     margin-top: 10%;
-    margin-left: 15%;
+    margin-left: 10%;
     font-size: 16px;
     color: #c0392b;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -545,7 +545,7 @@
   .Tekst h2{
     text-align: center;
     color: #c0392b;
-    font-size: 24px;
+    font-size: 17px;
     margin-bottom: 20px;
   }
   
