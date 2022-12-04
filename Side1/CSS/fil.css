@@ -114,8 +114,8 @@
   }
   
   #p2 a{
-    color: white;
-    text-shadow: 5px 5px 10px black;
+    font-weight: 500;
+    color: #c0392b;
   }
   
   #p2 a:hover{
@@ -422,8 +422,7 @@
   }
   
   #p2 a{
-    color:cornsilk;
-    text-shadow: 5px 5px 10px black;
+    color:#c0392b;
   }
   
   #p2 a:hover{
@@ -732,8 +731,8 @@
   }
   
   #p2 a{
-    color:white;
-    text-shadow: 5px 5px 10px black;
+    color:#c0392b;
+    font-weight: 500;
   }
   
   #p2 a:hover{
