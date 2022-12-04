@@ -280,7 +280,7 @@ and (max-width: 1100px) {
       text-decoration: none;
       font-size: 18px;
       font-weight: 500;
-      color: white;
+      color: beige;
       padding: 20px;
       letter-spacing: 4px;
       margin-left: 30px;
@@ -506,9 +506,8 @@ and (max-width: 700px) {
       display: block;   
       text-decoration: none;
       font-size: 18px;
-      font-family: Cambria;
       font-weight: 500;
-      color: white;
+      color: beige;
       padding: 20px;
       letter-spacing: 4px;
       margin-left: 30px;
@@ -524,7 +523,7 @@ and (max-width: 700px) {
     
     .grid {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 100%;
         grid-template-rows: 11% 19% 25% 45%;
         margin-top: 10%;
         padding: 10px;  
@@ -676,7 +675,7 @@ and (max-width: 700px) {
     }
       
       
-    .footer-area-3{
+    .kart{
         width: 100px;
         margin-right: 20%;
     }
