@@ -322,6 +322,10 @@ footer p {
     grid-column-end: 2;
 }
 
+footer p a{
+    color: beige;
+}
+
 }
 
 /*Medium skjerm--------------------------------------------------------------------------------------------------*/
@@ -357,7 +361,7 @@ and (max-width: 1100px){
     text-align: center;
     font-size: 18px;
     font-weight: 500;
-    color: white;
+    color: beige;
     background-color: #c0392b;
     border: none;
     padding: 20px;
@@ -636,6 +640,10 @@ footer p {
     line-height: 2.8em;
     grid-column-start: 2;
     grid-column-end: 2;
+}
+
+footer p a{
+    color: beige;
 }
 
 }
@@ -954,4 +962,9 @@ footer p {
     grid-column-start: 2;
     grid-column-end: 2;
 }
+
+footer p a{
+    color: beige;
+}
+
 }
