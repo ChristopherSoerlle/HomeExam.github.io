@@ -327,8 +327,8 @@
   }
   
   .Testing-image1 {
-    width: 64%;
-    margin-left: 18%;
+    width: 80%;
+    margin-left: 10%;
     height: 44%;
     margin-top: 28%;
     border: 2px #c0392b solid;
@@ -336,8 +336,8 @@
   }
   
   .Testing-image2 {
-    width: 64%;
-    margin-left: 18%;
+    width: 80%;
+    margin-left: 10%;
     height: 44%;
     margin-top: 28%;
     border: 2px #c0392b solid;
@@ -354,8 +354,8 @@
   }
   
   .Testing-image3 {
-    width: 64%;
-    margin-left: 18%;
+    width: 80%;
+    margin-left: 10%;
     height: 44%;
     margin-top: 28%;
     border: 2px #c0392b solid;
@@ -363,8 +363,8 @@
   }
   
   .Testing-image4 {
-    width: 64%;
-    margin-left: 18%;
+    width: 80%;
+    margin-left: 10%;
     height: 44%;
     margin-top: 28%;
     border: 2px #c0392b solid;
@@ -446,6 +446,8 @@
   }
   
 }
+
+/*Liten skjerm---------------------------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 420px) {
   body {
