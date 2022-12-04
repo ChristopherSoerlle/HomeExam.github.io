@@ -23,7 +23,7 @@ body {
   position: relative;
   letter-spacing: 3px;
   color: dodgerblue;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 32px;
   text-shadow: 5px 5px 10px black;
   top: 30%;
@@ -32,7 +32,7 @@ body {
 .Main-Title:hover{
   zoom: 1.145; 
   color: rgb(57, 103, 255);
-  font-family: fantasy;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .Navbar {
@@ -53,11 +53,10 @@ li {
 
 .Navbar a{
   text-decoration: none;
-  font-size: 22px;
-  font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 700;
   color: dodgerblue;
-  text-shadow: 7px 7px 12px black;
   padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -72,9 +71,8 @@ li {
   border-radius: 20px;
   border-style: solid;
   transition: 0.2s;
-  opacity: 0.6;
   color: rgb(57, 103, 255);
-  font-family: fantasy;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-decoration: underline;
 }
 
@@ -107,12 +105,12 @@ h2{
   margin-left: 10%;
   margin-top: 10px;
   line-height: 1.7em;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
   overflow: scroll;
 }
 
-.topiclink{
+.topicbilde1{
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 1;
@@ -129,14 +127,14 @@ h2{
   margin-left: 10%; 
   margin-top: 40px;
   line-height: 1.7em;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif; 
   font-size: 15px;
   overflow: scroll;
 }
 
 
 
-.topicbilde{
+.topicbilde2{
 grid-column-start: 2;
 grid-column-end: 3;
 grid-row-start: 2;
@@ -147,8 +145,8 @@ align-items: center;
 
 .topictext1:hover,.topictext2:hover{
   zoom: 1.1;
-  color: #130f40;
-  font-family:fantasy;
+  color: dodgerblue;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 15px;
   line-height: 1.6em;
 }
@@ -162,7 +160,7 @@ align-items: center;
   zoom: 1.2;
 }
 
-.grid-img1{ 
+.topic-img1{ 
   height: 55%;
   width: 70%;
   margin-left: 15%;
@@ -171,11 +169,11 @@ align-items: center;
   margin-top: 30%;
 }
 
-.grid-img1:hover{
+.topic-img1:hover{
   zoom: 1.05;
 }
 
-.grid-img2{
+.topic-img2{
 
   height: 55%;
   width: 70%;
@@ -185,7 +183,7 @@ align-items: center;
   margin-top: 30%;
 }
 
-.grid-img2:hover{
+.topic-img2:hover{
   zoom: 1.05;
 }
 
@@ -199,7 +197,25 @@ footer{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  margin-top: 5%;
+  line-height: 2em;
+  font-size: 38px;
+}
+
+.footer-info a{
+    color: dodgerblue;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 7%
+}
+
+.footer-info a:nth-child(1){
+  margin-left: 10%;
+}
+
+.footer-info a:nth-child(3){
+  margin-right: 10%;
 }
 }
 
@@ -232,7 +248,7 @@ footer{
     position: relative;
     letter-spacing: 3px;
     color: dodgerblue;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     letter-spacing: 5px;
     text-shadow: 5px 5px 10px black;
@@ -242,7 +258,7 @@ footer{
   .Main-Title:hover{
     zoom: 1.145; 
     color: rgb(57, 103, 255);
-    font-family: fantasy;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   
   .Navbar {
@@ -264,16 +280,15 @@ footer{
   .Navbar a{
     text-decoration: none;
     font-size: 13px;
-    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
     color: dodgerblue;
-    text-shadow: 7px 7px 12px black;
-    padding-left: 8px;
-    padding-top: 8px;
+    padding-left: 6px;
+    padding-top: 6px;
     padding-bottom: 8px;
     padding-right: 8px;
     letter-spacing: 4px;
-    margin: 4px 4px;
+    margin: 3px 3px;
   }
   
   .Navbar a:hover{
@@ -284,7 +299,7 @@ footer{
     transition: 0.2s;
     opacity: 0.6;
     color: rgb(57, 103, 255);
-    font-family: fantasy;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: underline;
   }
   
@@ -316,11 +331,11 @@ footer{
     margin-left: 10%; 
     margin-top: 10%;
     line-height: 1.7em;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
   }
   
-  .topiclink{
+  .topicbilde1{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -336,13 +351,13 @@ footer{
     width: 80%;
     margin-left: 10%; 
     line-height: 1.7em;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
   }
   
   
   
-  .topicbilde{
+  .topicbilde2{
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 4;
@@ -353,10 +368,9 @@ footer{
   
   .topictext1:hover, .topictext2:hover{
     zoom: 1.1;
-    color: #130f40;
-    font-family:fantasy;
     font-size: 15px;
     line-height: 1.6em;
+    color: dodgerblue;
   }
   
   .topictext1 a, .topictext2 a{
@@ -368,7 +382,7 @@ footer{
     zoom: 1.2;
   }
   
-  .grid-img1{
+  .topic-img1{
     height: 70%;
     width: 70%;
     margin-left: 15%;
@@ -376,11 +390,11 @@ footer{
     border-radius: 20px;
   }
   
-  .grid-img1:hover{
+  .topic-img1:hover{
     zoom: 1.05;
   }
   
-  .grid-img2{
+  .topic-img2{
     height: 70%;
     width: 70%;
     margin-left: 15%;
@@ -388,21 +402,39 @@ footer{
     border-radius: 20px;
   }
   
-  .grid-img2:hover{
+  .topic-img2:hover{
     zoom: 1.05;
   }
   
   footer{
     height: 200px;
   }
-  
+
   .footer-info{
     margin-top: 25px;
     border-top: dotted 8px dodgerblue; 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    margin-top: 5%;
+    line-height: 2em;
+    font-size: 38px;
+  }
+  
+  .footer-info a{
+      color: dodgerblue;
+      font-weight: 700;
+      text-decoration: none;
+      margin-top: 7%
+  }
+  
+  .footer-info a:nth-child(1){
+    margin-left: 10%;
+  }
+  
+  .footer-info a:nth-child(3){
+    margin-right: 10%;
   }
 }
 
@@ -435,7 +467,7 @@ footer{
     position: relative;
     letter-spacing: 3px;
     color: dodgerblue;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 8px;
     letter-spacing: 5px;
     text-shadow: 5px 5px 10px black;
@@ -445,7 +477,7 @@ footer{
   .Main-Title:hover{
     zoom: 1.145; 
     color: rgb(57, 103, 255);
-    font-family: fantasy;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   
   .Navbar {
@@ -453,30 +485,36 @@ footer{
     line-height: 2.3em;
     background-color: none;
     text-align: center;
-    display: inline-block;
-    left: 0;
-    right: 0;
+    display: block;
     align-items: center;
   }
   
+  ul{
+    padding: 0;
+    border-top: 2px solid dodgerblue;
+    border-bottom: 2px solid dodgerblue;
+    background-image: linear-gradient(to right, rgb(194, 225, 255), rgb(255, 244, 182), rgb(194, 225, 255) );
+  }
+
   li {
     list-style: none;
-    display: inline-block;
+    display: block;
+
   }
   
   .Navbar a{
     text-decoration: none;
     font-size: 12px;
-    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
     color: dodgerblue;
     text-shadow: 7px 7px 12px black;
-    padding-left: 20px;
+    padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 20px;
+    padding-right: 10px;
     letter-spacing: 4px;
-    margin: 30px 30px;
+    margin: 5px 5px;
   }
   
   .Navbar a:hover{
@@ -487,7 +525,7 @@ footer{
     transition: 0.2s;
     opacity: 0.6;
     color: rgb(57, 103, 255);
-    font-family: fantasy;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: underline;
   }
   
@@ -517,13 +555,13 @@ footer{
     margin-left: 10%; 
     margin-top: 10%;
     line-height: 1.7em;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
     z-index: 1;
     overflow: scroll;
   }
   
-  .topiclink{
+  .topicbilde1{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -545,8 +583,13 @@ footer{
     overflow: scroll;
   }
   
+.topictext1:hover, .topictext2:hover{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: dodgerblue;
+}
+
   
-  .topicbilde{
+  .topicbilde2{
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 4;
@@ -561,7 +604,7 @@ footer{
   }
   
   
-  .grid-img1{
+  .topic-img1{
     height: 100%;
     width: 80%;
     margin-top: 10px;
@@ -570,11 +613,11 @@ footer{
     border-radius: 20px;
   }
   
-  .grid-img1:hover{
+  .topic-img1:hover{
     zoom: 1.05;
   }
   
-  .grid-img2{
+  .topic-img2{
     height: 100%;
     width: 80%;
     margin-left: 10%;
@@ -583,12 +626,12 @@ footer{
     border-radius: 20px;
   }
   
-  .grid-img2:hover{
+  .topic-img2:hover{
     zoom: 1.05;
   }
   
   footer{
-    height: 200px;
+    height: 150px;
     margin-top: 10%;
   }
   
@@ -598,6 +641,24 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    margin-top: 5%;
+    line-height: 2em;
+    font-size: 18px;
+  }
+  
+  .footer-info a{
+      color: dodgerblue;
+      font-weight: 700;
+      text-decoration: none;
+      margin-top: 15%
+  }
+  
+  .footer-info a:nth-child(1){
+    margin-left: 10%;
+  }
+  
+  .footer-info a:nth-child(3){
+    margin-right: 10%;
   }
 }
