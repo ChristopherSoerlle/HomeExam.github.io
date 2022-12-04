@@ -105,18 +105,18 @@
   }
   
   .Testing-image1 {
-    width: 70%;
-    margin-left: 15%;
-    height: 70%;
+    width: 80%;
+    margin-left: 10%;
+    height: 50%;
     margin-top: 15%;
     border: 2px #c0392b solid;
     border-radius: 5px;
   }
   
   .Testing-image2 {
-    width: 70%;
-    margin-left: 15%;
-    height: 70%;
+    width: 80%;
+    margin-left: 10%;
+    height: 50%;
     margin-top: 15%;
     border: 2px #c0392b solid;
     border-radius: 5px;
@@ -132,18 +132,18 @@
   }
   
   .Testing-image3 {
-    width: 70%;
-    margin-left: 15%;
-    height: 70%;
+    width: 80%;
+    margin-left: 10%;
+    height: 50%;
     margin-top: 15%;
     border: 2px #c0392b solid;
     border-radius: 5px;
   }
   
   .Testing-image4 {
-    width: 70%;
-    margin-left: 15%;
-    height: 70%;
+    width: 80%;
+    margin-left: 10%;
+    height: 50%;
     margin-top: 15%;
     border: 2px #c0392b solid;
     border-radius: 5px;
@@ -221,6 +221,8 @@
     zoom: 1.2;
   }
 }
+
+/*Middels skjerm-----------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 1000px) {
   body {
